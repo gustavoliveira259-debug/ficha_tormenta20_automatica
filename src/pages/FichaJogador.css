@@ -1,0 +1,109 @@
+:root {
+  --neon: #e8c97a;
+}
+
+/* Página */
+.page {
+  background: #0a0a0a;
+  min-height: 100vh;
+  padding: 1rem;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+/* Topbar */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background: #111;
+  border: 1px solid var(--neon);
+  border-radius: 12px;
+  padding: 12px 20px;
+}
+
+/* Título */
+.titulo {
+  color: var(--neon);
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Botões */
+.btn {
+  border-radius: 8px;
+  padding: 6px 14px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+/* Inputs */
+.input {
+  background: #0d0d0d;
+  border: 1px solid #2a2a2a;
+  border-radius: 6px;
+  color: #e0e0e0;
+  padding: 6px 10px;
+  font-size: 13px;
+  width: 100%;
+}
+
+.input-center {
+  text-align: center;
+}
+
+/* Seções */
+.secao {
+  background: #111;
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+}
+
+.secao-titulo {
+  color: var(--neon);
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+/* Labels */
+.label {
+  color: #666;
+  font-size: 10px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 3px;
+}
+
+/* Atributos */
+.atributo-box {
+  background: #0d0d0d;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 4px;
+  flex: 1;
+}
+
+/* Tabelas */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Hover */
+button:hover {
+  filter: brightness(1.2);
+}
+
+/* Scroll */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--neon);
+  border-radius: 3px;
+}
